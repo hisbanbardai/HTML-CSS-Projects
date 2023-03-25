@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page-logo a{
+    font-family: "Oleo Script", sans-serif;
+    font-size: 50px;
+    color: rgb(235, 235, 43);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
