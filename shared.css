@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 60px;
+    margin: 15px 60px 15px 25px;
 }
 
 #page-logo a{
