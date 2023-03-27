@@ -7,7 +7,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 60px 15px 25px;
+    padding: 15px 60px 15px 25px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #page-logo a{
@@ -26,8 +29,16 @@ header ul{
     display: flex;
 }
 
-ul a{
+nav a{
     text-decoration: none;
+    color: yellow;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    background-color: yellow;
     color: black;
 }
 
