@@ -1,47 +1,74 @@
-body{
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
-header{
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px 15px 25px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#page-logo a {
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  color: rgb(235, 235, 43);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+}
+
+header ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: yellow;
+  padding: 7px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: rgb(31, 30, 30);
+  height: 75px;
+  padding: 35px;
+}
+
+footer ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 15px 60px 15px 25px;
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
 }
 
-#page-logo a{
-    font-family: "Oleo Script", sans-serif;
-    font-size: 50px;
-    color: rgb(235, 235, 43);
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px black;
+footer li{
+    height: 80px;
+    width: 80px;
+    margin: 0 35px;
 }
 
-header ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+footer img {
+  height: 100%;
+  width: 100%;
 }
 
-nav a{
-    text-decoration: none;
-    color: yellow;
-    padding: 7px;
-    font-size: 20px;
-    border-radius: 6px;
-}
-
-nav a:hover{
-    background-color: yellow;
-    color: black;
-}
-
-header li{
-    margin-left: 20px;
-}

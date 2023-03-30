@@ -55,7 +55,6 @@
 }
 
 #destinations {
-  list-style: none;
   padding: 0;
   display: flex;
   width: 90%;
