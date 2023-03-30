@@ -1,44 +1,66 @@
-#hero-section{
-    height: 600px;
-    background-image: url(/images/places/ocean.jpg);
-    background-size: cover;
-    background-position: center;
+#hero-section {
+  height: 600px;
+  background-image: url(/images/places/ocean.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#hero-content{
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgba(54, 51, 51, 0.8);
-    padding: 40px 0;
-    box-shadow: 2px 4px 8px black;
-    border-radius: 5px;
-    position: relative;
-    top: 150px;
+#hero-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(54, 51, 51, 0.8);
+  padding: 40px 0;
+  box-shadow: 2px 4px 8px black;
+  border-radius: 5px;
+  position: relative;
+  top: 150px;
 }
 
-#hero-content h1{
-    color: white;
-    font-family: "Raleway",sans-serif;
-    font-size: 45px;
-    text-transform: uppercase;
-    margin: 0;
+#hero-content h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
-#hero-content p{
-    color: white;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 300;
+#hero-content p {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-#hero-content a{
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    background-color: yellow;
-    padding: 10px;
-    box-shadow: 2px 4px 8px black;
-    border-radius: 5px;
-    font-weight: bold;
+#hero-content a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px;
+  box-shadow: 2px 4px 8px black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#destinations {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination {
+  width: 100%;
+  margin: 0px 20px;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 2px 4px 8px black;
+  border-radius: 5px;
 }
