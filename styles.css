@@ -43,6 +43,17 @@
   font-weight: bold;
 }
 
+#highlights{
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    padding: 10px;
+}
+
+#highlights h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 #destinations {
   list-style: none;
   padding: 0;
@@ -50,6 +61,7 @@
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
 .destination {
@@ -63,4 +75,15 @@
   object-fit: cover;
   box-shadow: 2px 4px 8px black;
   border-radius: 5px;
+}
+
+.destination p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(58, 58, 58);
+}
+
+.destination strong{
+    color: rgb(72, 184, 72);
 }
