@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul {
@@ -35,7 +35,7 @@ header ul {
 nav a {
   text-decoration: none;
   color: yellow;
-  padding: 7px;
+  padding: 15px;
   font-size: 20px;
   border-radius: 6px;
 }
